@@ -3,12 +3,15 @@
 
 you can install the package using
 
-npm install --save
+npm install nodejs-hello--save
+yarn add nodejs-hello
 
-create a file 'index.js' and add
 
+## Usage
 var test = require('hello-world-node-package');
 
 test.helloWorld();
+## Test
+npm run test
 
 # BINGO you will see "hello World " on the console
